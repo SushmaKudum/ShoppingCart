@@ -1,0 +1,76 @@
+{
+  "action": [
+    {
+      "id": "1",
+      "img": "img/blueTShirt.jpg",
+      "title": "SOLID GREEN COTTON T-SHIRT",
+      "style": "MS13KT1906",
+      "colour": "blue",
+      "size": "s",
+      "quantity": "1",
+      "price": 11
+    },
+    {
+      "id": "2",
+      "img": "img/pinkflower.jpg",
+      "title": "PINK RAINBOW PRINT GIRLS TEE",
+      "style": "MS13KT1906",
+      "colour": "gray",
+      "size": "s",
+      "quantity": "1",
+      "price": 17
+    },
+    {
+      "id": "3",
+      "img": "img/blueAndWhite.jpg",
+      "title": "BLUE FLOWER PATTERN SHIRT",
+      "style": "MS13KT1906",
+      "colour": "gray",
+      "size": "s",
+      "quantity": "1",
+      "price": 9
+    },
+    {
+      "id": "4",
+      "img": "img/blueAndWhite.jpg",
+      "title": "BLUE FLOWER PATTERN SHIRT",
+      "style": "MS13KT1906",
+      "colour": "gray",
+      "size": "s",
+      "quantity": "1",
+      "price": 9
+    },
+    {
+      "id": "5",
+      "img": "img/blueTShirt.jpg",
+      "title": "SOLID GREEN COTTON T-SHIRT",
+      "style": "MS13KT1906",
+      "colour": "blue",
+      "size": "s",
+      "quantity": "1",
+      "price": 11
+    },
+    {
+      "id": "6",
+      "img": "img/pinkflower.jpg",
+      "title": "PINK RAINBOW PRINT GIRLS TEE",
+      "style": "MS13KT1906",
+      "colour": "gray",
+      "size": "s",
+      "quantity": "1",
+      "price": 17
+    }
+  ],
+  "addItems": [
+    {
+      "id": "1",
+      "img": "img/blueTShirt.jpg",
+      "title": "SOLID GREEN COTTON T-SHIRT",
+      "style": "MS13KT1906",
+      "colour": "blue",
+      "size": "s",
+      "quantity": "1",
+      "price": 11
+    }
+  ]
+}
