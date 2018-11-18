@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YOUR SHOPPING BAG</title>
+    <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../src/css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <h4>
+                YOUR SHOPPING BAG
+            </h4>
+        </div>
+        <div class="bag">
+            <div class="row column-header">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5" id="itemsCount">ITEM(S)</div>
+                <div class="col-sm-2 displayItem">SIZE</div>
+                <div class="col-sm-2 displayItem">QTY</div>
+                <div class="col-sm-2 displayItem">PRICE</div>
+            </div>
+            <div id="itemDetails"></div>
+
+            <hr>
+            <div class="mainCart space">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h6>Need Help or Have a question?</h6>
+                        <label>
+                            <p>Call Customer service at 1-800-555-5555</p>
+                            <p>
+                                <u>Chat with one of our stylists</u>
+                            </p>
+                            <p>
+                                <u>See return & exchange policy</u>
+                            </p>
+                        </label>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div id="totalcal">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <label for="promotioncode" title="promotion" class="control-label">ENTER PROMOTION CODE OR GIFT CARD</label>
+                                    &nbsp;&nbsp;
+                                    <input type="text" class="form-control" title="promotion" id="promotion"
+                                        size="3" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-outline-secondary">Apply</button>
+                                </div>
+                            </form>
+                        </div>
+                        <hr>
+                        <div id="AmountDetails"></div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <u>Continue Shopping</u>
+                            </div>
+                            <div class="col-sm-6">
+                                <button type="button" class="btn btn-outline-secondary" id="checkoutbtn">CHECKOUT</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="/src/img/lock.jpg" alt="lock" class="lock"> Secure checkout. Shopping is always safe & secure
+        </div>
+    </div>
+    <!-- jQuery library -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="../js/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../src/js/index.js"></script>
+</body>
+
+</html>
