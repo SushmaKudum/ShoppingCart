@@ -67,7 +67,8 @@ export function editCartTemplate(data) {
                   <hr>
                   <p class="textAlign"><span>${data.ptitle}</span></p>
                   <p class="textAlign"><span>$${data.price}</span></p>
-                  <p class="textAlign"><span>${data.colour}</span></p>
+                  <p class="textAlign"><span class="parentColorbox" style="border: 1px solid ${data.colour};background:${data.colour}"></span>
+                  <span class="colorbox"></span></p>
                   <p>
                     <div class="row textAlign">
                     <div class="dropdown">

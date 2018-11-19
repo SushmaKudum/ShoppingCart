@@ -221,5 +221,22 @@ border-left: 1px solid #ccc;
     border-top-left-radius: 0.3rem;
     border-top-right-radius: 0.3rem;
   }
- 
+ .colorbox
+ {
+  width: 15px;
+  height: 15px;
+  display: inline_block;
+  border: 1px solid gray;
+  vertical-align: middle;
+  border-radius: 2px;
+  background:gray;
+ }
+ .parentColorbox
+ {
+  width: 15px;
+  height: 15px;
+  display: inline_block;
+  vertical-align: middle;
+  border-radius: 2px;
+ }
  

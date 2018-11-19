@@ -5,7 +5,7 @@
       "img": "/src/img/blueTShirt.jpg",
       "ptitle": "SOLID GREEN COTTON T-SHIRT",
       "style": "MS13KT1906",
-      "colour": "blue",
+      "colour": "green",
       "size": "S",
       "quantity": "2",
       "price": 11
@@ -15,7 +15,7 @@
       "img": "/src/img/pinkflower.jpg",
       "ptitle": "PINK RAINBOW PRINT GIRLS TEE",
       "style": "MS13KT1906",
-      "colour": "gray",
+      "colour": "pink",
       "size": "s",
       "quantity": "1",
       "price": 17
@@ -25,8 +25,8 @@
       "img": "/src/img/blueAndWhite.jpg",
       "title": "BLUE FLOWER PATTERN SHIRT",
       "style": "MS13KT1906",
-      "colour": "gray",
-      "size": "s",
+      "colour": "blue",
+      "size": "XS",
       "quantity": "1",
       "price": 9
     }
@@ -37,7 +37,7 @@
       "img": "/src/img/blueTShirt.jpg",
       "ptitle": "SOLID GREEN COTTON TSHIRT",
       "style": "MS13KT1906",
-      "colour": "BLUE",
+      "colour": "green",
       "size": "s",
       "quantity": "1",
       "price": 11
