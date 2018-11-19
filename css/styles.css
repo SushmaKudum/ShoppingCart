@@ -1,0 +1,200 @@
+
+
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: Arial;
+  padding: 0px 30px 30px 20px;
+  margin: 0;
+  background:white; 
+  font-weight: 10;
+  min-height:100vh;
+  font-style: normal;
+  font-size: 1em;
+
+}
+
+  @media screen and (min-width: 48em){
+  .header {
+    margin-bottom: 2rem;
+  }}
+@media screen and (min-width: 48em){
+.header,.footer {
+    padding-right: 0;
+    padding-left: 0;
+}}
+.header {
+  border-bottom: .05rem #e5e5e5;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 14px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  top: 0;
+  left: 0; }
+
+
+
+  header {
+    background-color: white;
+    height: 30px;
+}
+footer {  
+  position: absolute;
+  bottom: 0;
+}
+
+.item-image, .item-details, .item-removal {
+  text-indent: -9999px;
+}
+
+/* item entries */
+.item {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid #eee;}
+  
+  .item-image {
+    text-align: center;}
+    .item-image img {
+      width: 100px;
+    }
+   .item-title {
+      margin-right: 20px;
+      font-family:  'HelveticaNeue-Medium', 'Helvetica Neue Medium';
+    }
+    .item-description {
+      margin: 5px 20px 5px 0;
+      line-height: 1.4em;
+    }
+
+  
+  .item-quantity input{
+      width: 40px;
+      
+  }
+  
+  .remove-item {
+    border: 0;
+    padding: 4px 8px;
+    background-color: #c66;
+    color: #fff;
+    font-family:  'HelveticaNeue-Medium', 'Helvetica Neue Medium';
+    font-size: 0.5em;
+    border-radius: 3px;
+  }
+  
+  .remove-item:hover {
+    background-color: #a44;
+  }
+
+  .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+label {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+p{
+  
+    display:flex; /* control the items' content */
+    justify-content:left; /* horizontally */
+    flex-flow:row wrap;
+    align-items:center; /* vertically */
+/* and some item styling for clarity: */
+font-size: 0.9rem; 
+ 
+}
+.alignImg
+{
+  
+  display:flex; /* control the items' content */
+  justify-content:center; /* horizontally */
+  flex-flow:row wrap;
+  align-items:center; /* vertically */
+
+
+}
+
+hr{
+  border-bottom:3px solid rgba(37, 28, 28, 0.144);
+}
+
+element.style {
+  position: absolute;
+  transform: translate3d(0px, 38px, 0px);
+  top: 0px;
+  left: 0px;
+  will-change: transform;
+}
+.dropdown-menu.show {
+  display: block;
+}
+.dropdown-menu[x-placement^=bottom], .dropdown-menu[x-placement^=left], .dropdown-menu[x-placement^=right], .dropdown-menu[x-placement^=top] {
+  right: auto;
+  bottom: auto;
+}
+.nowrap
+{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left:0.9em;
+}
+.edit{
+  color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 2rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.secure-item
+{  
+    font-size: 0.8rem;
+    float:right;
+}
+
+.checkbox {
+	-webkit-font-smoothing: antialiased;
+  background-color: #a44;
+}
+.textRight
+{
+  text-align: right;
+}
